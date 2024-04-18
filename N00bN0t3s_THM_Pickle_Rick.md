@@ -197,7 +197,7 @@ THE MOMENT OF TRUTH ----> WE 'RE IN !!!
 
 Let 's make the shell stable and see what we can get off this filesystem!
 		
-	python -c 'import pty;pty.spawn("/bin/bash")'
+	python3 -c 'import pty;pty.spawn("/bin/bash")'
 ---
 	export TERM=xterm
 ---
